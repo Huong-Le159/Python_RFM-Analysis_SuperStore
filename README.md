@@ -29,10 +29,25 @@ SuperStore is a global retail company with a large customer base. To celebrate C
 | CustomerID      | INT           | Unique identifier for each customer.               |
 | Country         | TEXT          | Country where the transaction took place.          |
 
-## III.Python Analysis
-### 3. Applying RFM model to release marketing campaign for loyal customer to give Thank you letter
-#### 3.1. Distribution customer volume and spending by segmentation
+## III.Python Analysis and Insights
+### 1. Find Loyal customer to give Thank you letter in Marketing campaign
 <img width="1310" height="734" alt="image" src="https://github.com/user-attachments/assets/6377a871-cc5c-4fef-8229-906c73ac9234" />
+
+- Insights:
+  - 'New Customer' + 'Potential Loyalist' + 'Promising' = Majority of customer base with large volume group about 15% to 18% but low spending contribution about 5% to 8% => Company should consider to give them nuturing campain such as educational email flows, onboarding welcome discounts.
+  - 'Loyal' = Steady + Valuable with medium volume about 18% and good spending about 11% which are brand fans for company => They should receive Thank you letter from marketing campaign of company in the future.
+    
+### 2. Find potential customers to become Loyal customers
+<img width="1284" height="901" alt="image" src="https://github.com/user-attachments/assets/3f1a53e3-d1d2-4b19-aa7f-bd6e8a9a1b18" />
+
+- Insights:
+  - Non Loyal cusotmers have a large portion in q3 and q4 (quantity > 10) which means although they've purchased quite a lot but still aren't tagged as Loyal customer => they are potential customers. Therefore, company should send them personalized offers, encourage them to make another purchase soon to increase Recency score and recommend high-value products to increase Monetary score.
+    
+#### 3. Find indicator in R, F, and M should be most interested in
+<img width="888" height="672" alt="image" src="https://github.com/user-attachments/assets/69389174-a07f-4ac4-8b8c-8cfc6b7cf658" />
+
+- Insights:
+  - 'Very Recent' customers spend the most who made a purchase most recently and are spending the highest average amount. This is make sense in supermarket settings, the more recently a customer buys, the more they tend to spend => Recency is a powerful driver of revenue in retail industry.
 
 
 
